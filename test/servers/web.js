@@ -4,7 +4,7 @@ var fs      = require('fs');
 var actionheroPrototype = require(__dirname + "/../../actionhero.js").actionheroPrototype;
 var actionhero = new actionheroPrototype();
 var api;
-var url
+var url;
 
 describe('Server: Web', function(){
 
